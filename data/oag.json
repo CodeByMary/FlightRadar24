@@ -1,0 +1,1238 @@
+{
+    "data": [
+        {
+            "carrier": {
+                "iata": "KE",
+                "icao": "KAL"
+            },
+            "serviceSuffix": "",
+            "flightNumber": 476,
+            "sequenceNumber": 1,
+            "flightType": "Scheduled",
+            "departure": {
+                "airport": {
+                    "iata": "SGN",
+                    "icao": "VVTS"
+                },
+                "terminal": "2",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-02"
+                },
+                "time": {
+                    "local": "00:15",
+                    "utc": "17:15"
+                }
+            },
+            "arrival": {
+                "airport": {
+                    "iata": "ICN",
+                    "icao": "RKSI"
+                },
+                "terminal": "2",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-02"
+                },
+                "time": {
+                    "local": "07:20",
+                    "utc": "22:20"
+                }
+            },
+            "elapsedTime": 305,
+            "aircraftType": {
+                "iata": "773"
+            },
+            "serviceType": {
+                "iata": "J"
+            },
+            "segmentInfo": {
+                "numberOfStops": 0,
+                "intermediateAirports": {
+                    "iata": []
+                }
+            },
+            "codeshare": {
+                "cockpitCrewEmployer": {
+                    "code": "KE",
+                    "name": "",
+                    "number": "4"
+                },
+                "jointOperationAirlineDesignators": [],
+                "marketingFlights": [
+                    {
+                        "code": "DL",
+                        "serviceNumber": "7926",
+                        "suffix": ""
+                    },
+                    {
+                        "code": "VN",
+                        "serviceNumber": "3400",
+                        "suffix": ""
+                    },
+                    {
+                        "code": "VS",
+                        "serviceNumber": "5520",
+                        "suffix": ""
+                    }
+                ]
+            },
+            "scheduleInstanceKey": "42fe92775283678d9221e60ba329ebe745c537164255f058afc8314b6b8a3b04",
+            "statusKey": "ad7e703e763f73a7c5f807140755e8626ebba7f76046415b4789d497215bea39",
+            "statusDetails": [
+                {
+                    "state": "InGate",
+                    "updatedAt": "2023-10-02T22:26:29.057",
+                    "equipment": {
+                        "aircraftRegistrationNumber": "HL7534",
+                        "actualAircraftType": {
+                            "iata": "773",
+                            "icao": "B773"
+                        }
+                    },
+                    "departure": {
+                        "estimatedTime": {
+                            "outGateTimeliness": "OnTime",
+                            "outGateVariation": "00:00:00",
+                            "outGate": {
+                                "local": "2023-10-03T00:15:00+07:00",
+                                "utc": "2023-10-02T17:15:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "outGateTimeliness": "Delayed",
+                            "outGateVariation": "00:16:00",
+                            "outGate": {
+                                "local": "2023-10-03T00:31:00+07:00",
+                                "utc": "2023-10-02T17:31:00+00:00"
+                            },
+                            "offGround": {
+                                "local": "2023-10-03T00:43:00+07:00",
+                                "utc": "2023-10-02T17:43:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "SGN",
+                            "icao": "VVTS"
+                        }
+                    },
+                    "arrival": {
+                        "estimatedTime": {
+                            "inGateTimeliness": "Delayed",
+                            "inGateVariation": "00:02:00",
+                            "onGround": {
+                                "local": "2023-10-03T07:15:00+09:00",
+                                "utc": "2023-10-02T22:15:00+00:00"
+                            },
+                            "inGate": {
+                                "local": "2023-10-03T07:22:00+09:00",
+                                "utc": "2023-10-02T22:22:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "inGateTimeliness": "Delayed",
+                            "inGateVariation": "00:01:00",
+                            "onGround": {
+                                "local": "2023-10-03T07:14:00+09:00",
+                                "utc": "2023-10-02T22:14:00+00:00"
+                            },
+                            "inGate": {
+                                "local": "2023-10-03T07:21:00+09:00",
+                                "utc": "2023-10-02T22:21:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "ICN",
+                            "icao": "RKSI"
+                        },
+                        "actualTerminal": "T2",
+                        "gate": "231",
+                        "baggage": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "carrier": {
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "serviceSuffix": "",
+            "flightNumber": 476,
+            "sequenceNumber": 1,
+            "flightType": "Scheduled",
+            "departure": {
+                "airport": {
+                    "iata": "DOH",
+                    "icao": "OTHH"
+                },
+                "terminal": "",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-02"
+                },
+                "time": {
+                    "local": "01:45",
+                    "utc": "22:45"
+                }
+            },
+            "arrival": {
+                "airport": {
+                    "iata": "SYZ",
+                    "icao": "OISS"
+                },
+                "terminal": "",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "03:45",
+                    "utc": "00:15"
+                }
+            },
+            "elapsedTime": 90,
+            "aircraftType": {
+                "iata": "320"
+            },
+            "serviceType": {
+                "iata": "J"
+            },
+            "segmentInfo": {
+                "numberOfStops": 0,
+                "intermediateAirports": {
+                    "iata": []
+                }
+            },
+            "codeshare": {
+                "cockpitCrewEmployer": {
+                    "code": "QR",
+                    "name": "",
+                    "number": "4"
+                },
+                "jointOperationAirlineDesignators": [],
+                "marketingFlights": [
+                    {
+                        "code": "IB",
+                        "serviceNumber": "2463",
+                        "suffix": ""
+                    },
+                    {
+                        "code": "LA",
+                        "serviceNumber": "7422",
+                        "suffix": ""
+                    },
+                    {
+                        "code": "WY",
+                        "serviceNumber": "6189",
+                        "suffix": ""
+                    }
+                ]
+            },
+            "scheduleInstanceKey": "64cf9c774e3c3fb4a41b4486fd8c9a98b6d82480c8c28d6bedd77cf8b77dc293",
+            "statusKey": "55a23dce3c3aa9976b6c70ce1554a88e075d64380c6891ca933a585a0593e187",
+            "statusDetails": [
+                {
+                    "state": "InGate",
+                    "updatedAt": "2023-10-03T01:12:15.986",
+                    "equipment": {
+                        "aircraftRegistrationNumber": "A7LAF",
+                        "actualAircraftType": {
+                            "iata": "320",
+                            "icao": "A320"
+                        }
+                    },
+                    "departure": {
+                        "estimatedTime": {
+                            "outGateTimeliness": "OnTime",
+                            "outGateVariation": "00:00:00",
+                            "outGate": {
+                                "local": "2023-10-03T01:45:00+03:00",
+                                "utc": "2023-10-02T22:45:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "outGateTimeliness": "Delayed",
+                            "outGateVariation": "00:19:00",
+                            "outGate": {
+                                "local": "2023-10-03T02:04:00+03:00",
+                                "utc": "2023-10-02T23:04:00+00:00"
+                            },
+                            "offGround": {
+                                "local": "2023-10-03T02:41:00+03:00",
+                                "utc": "2023-10-02T23:41:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "DOH",
+                            "icao": "OTHH"
+                        },
+                        "gate": "C62"
+                    },
+                    "arrival": {
+                        "estimatedTime": {
+                            "onGround": {
+                                "local": "2023-10-03T04:06:00+03:30",
+                                "utc": "2023-10-03T00:36:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "inGateTimeliness": "Delayed",
+                            "inGateVariation": "00:31:00",
+                            "onGround": {
+                                "local": "2023-10-03T04:07:00+03:30",
+                                "utc": "2023-10-03T00:37:00+00:00"
+                            },
+                            "inGate": {
+                                "local": "2023-10-03T04:16:00+03:30",
+                                "utc": "2023-10-03T00:46:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "SYZ",
+                            "icao": "OISS"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "carrier": {
+                "iata": "5X"
+            },
+            "flightNumber": 476,
+            "flightType": "Unscheduled",
+            "departure": {
+                "airport": {
+                    "iata": "SDF",
+                    "icao": "KSDF",
+                    "faa": "SDF"
+                },
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "04:41",
+                    "utc": "08:41"
+                }
+            },
+            "arrival": {
+                "airport": {
+                    "iata": "YHM",
+                    "icao": "CYHM"
+                },
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "05:52",
+                    "utc": "09:52"
+                }
+            },
+            "elapsedTime": 0,
+            "aircraftType": {
+                "icao": "B763"
+            },
+            "serviceType": {},
+            "segmentInfo": {
+                "numberOfStops": 0,
+                "intermediateAirports": {
+                    "iata": []
+                }
+            },
+            "codeshare": {
+                "jointOperationAirlineDesignators": [],
+                "marketingFlights": []
+            },
+            "statusKey": "9e34394abe83142c5a8000197516822dc32bad97ea81ae508195940af0765961",
+            "statusDetails": [
+                {
+                    "state": "Landed",
+                    "updatedAt": "2023-10-03T10:13:34.644",
+                    "equipment": {
+                        "aircraftRegistrationNumber": "N342UP",
+                        "actualAircraftType": {
+                            "icao": "B763"
+                        }
+                    },
+                    "departure": {
+                        "actualTime": {
+                            "offGround": {
+                                "local": "2023-10-03T05:09:00-04:00",
+                                "utc": "2023-10-03T09:09:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "SDF",
+                            "icao": "KSDF",
+                            "faa": "SDF"
+                        }
+                    },
+                    "arrival": {
+                        "actualTime": {
+                            "onGround": {
+                                "local": "2023-10-03T06:11:00-04:00",
+                                "utc": "2023-10-03T10:11:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "YHM",
+                            "icao": "CYHM"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "carrier": {
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "serviceSuffix": "",
+            "flightNumber": 476,
+            "sequenceNumber": 1,
+            "flightType": "Scheduled",
+            "departure": {
+                "airport": {
+                    "iata": "GUA",
+                    "icao": "MGGT"
+                },
+                "terminal": "",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "06:03",
+                    "utc": "12:03"
+                }
+            },
+            "arrival": {
+                "airport": {
+                    "iata": "MIA",
+                    "icao": "KMIA"
+                },
+                "terminal": "",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "10:50",
+                    "utc": "14:50"
+                }
+            },
+            "elapsedTime": 167,
+            "aircraftType": {
+                "iata": "738"
+            },
+            "serviceType": {
+                "iata": "J"
+            },
+            "segmentInfo": {
+                "numberOfStops": 0,
+                "intermediateAirports": {
+                    "iata": []
+                }
+            },
+            "codeshare": {
+                "jointOperationAirlineDesignators": [],
+                "marketingFlights": [
+                    {
+                        "code": "IB",
+                        "serviceNumber": "4021",
+                        "suffix": ""
+                    }
+                ]
+            },
+            "scheduleInstanceKey": "c0dd7369dd3e81cdccad73b23c5df35c68ad3a99f4ae6ce434284f4148bebeb0",
+            "statusKey": "3d7496b198a37b5401841876ac9eabdacfa065f316417d68480f832c008f82d9",
+            "statusDetails": [
+                {
+                    "state": "InGate",
+                    "updatedAt": "2023-10-03T14:35:46.538",
+                    "equipment": {
+                        "aircraftRegistrationNumber": "N826NN",
+                        "actualAircraftType": {
+                            "icao": "B738"
+                        }
+                    },
+                    "departure": {
+                        "estimatedTime": {
+                            "outGateTimeliness": "OnTime",
+                            "outGateVariation": "00:00:00",
+                            "outGate": {
+                                "local": "2023-10-03T06:03:00-06:00",
+                                "utc": "2023-10-03T12:03:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "outGateTimeliness": "Early",
+                            "outGateVariation": "-00:09:00",
+                            "outGate": {
+                                "local": "2023-10-03T05:54:00-06:00",
+                                "utc": "2023-10-03T11:54:00+00:00"
+                            },
+                            "offGround": {
+                                "local": "2023-10-03T06:12:00-06:00",
+                                "utc": "2023-10-03T12:12:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "GUA",
+                            "icao": "MGGT"
+                        },
+                        "gate": "10"
+                    },
+                    "arrival": {
+                        "estimatedTime": {
+                            "inGateTimeliness": "Early",
+                            "inGateVariation": "-00:17:00",
+                            "inGate": {
+                                "local": "2023-10-03T10:33:00-04:00",
+                                "utc": "2023-10-03T14:33:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "inGateTimeliness": "Early",
+                            "inGateVariation": "-00:15:00",
+                            "onGround": {
+                                "local": "2023-10-03T10:24:00-04:00",
+                                "utc": "2023-10-03T14:24:00+00:00"
+                            },
+                            "inGate": {
+                                "local": "2023-10-03T10:35:00-04:00",
+                                "utc": "2023-10-03T14:35:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "MIA",
+                            "icao": "KMIA",
+                            "faa": "MIA"
+                        },
+                        "actualTerminal": "D",
+                        "gate": "D6",
+                        "baggage": "CD"
+                    }
+                }
+            ]
+        },
+        {
+            "carrier": {
+                "iata": "BA",
+                "icao": "BAW"
+            },
+            "serviceSuffix": "",
+            "flightNumber": 476,
+            "sequenceNumber": 1,
+            "flightType": "Scheduled",
+            "departure": {
+                "airport": {
+                    "iata": "LHR",
+                    "icao": "EGLL"
+                },
+                "terminal": "5",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "07:25",
+                    "utc": "06:25"
+                }
+            },
+            "arrival": {
+                "airport": {
+                    "iata": "BCN",
+                    "icao": "LEBL"
+                },
+                "terminal": "1",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "10:40",
+                    "utc": "08:40"
+                }
+            },
+            "elapsedTime": 135,
+            "aircraftType": {
+                "iata": "320"
+            },
+            "serviceType": {
+                "iata": "J"
+            },
+            "segmentInfo": {
+                "numberOfStops": 0,
+                "intermediateAirports": {
+                    "iata": []
+                }
+            },
+            "codeshare": {
+                "jointOperationAirlineDesignators": [],
+                "marketingFlights": [
+                    {
+                        "code": "AA",
+                        "serviceNumber": "6759",
+                        "suffix": ""
+                    },
+                    {
+                        "code": "JL",
+                        "serviceNumber": "7765",
+                        "suffix": ""
+                    }
+                ]
+            },
+            "scheduleInstanceKey": "8e70c0c3d665cc249a70f27ca2efddccf5c904520873b77b4ceb412e5205a03e",
+            "statusKey": "fa3e07f019fe3dd03dc7ba02aac85bc874d023179f58fddc659accd8d0a9a9c2",
+            "statusDetails": [
+                {
+                    "state": "InGate",
+                    "updatedAt": "2023-10-03T09:17:16.239",
+                    "equipment": {
+                        "aircraftRegistrationNumber": "GEUYE",
+                        "actualAircraftType": {
+                            "iata": "20C"
+                        }
+                    },
+                    "departure": {
+                        "estimatedTime": {
+                            "outGateTimeliness": "Delayed",
+                            "outGateVariation": "00:40:00",
+                            "outGate": {
+                                "local": "2023-10-03T08:05:00+01:00",
+                                "utc": "2023-10-03T07:05:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "outGateTimeliness": "Delayed",
+                            "outGateVariation": "00:46:00",
+                            "outGate": {
+                                "local": "2023-10-03T08:11:00+01:00",
+                                "utc": "2023-10-03T07:11:00+00:00"
+                            },
+                            "offGround": {
+                                "local": "2023-10-03T08:26:00+01:00",
+                                "utc": "2023-10-03T07:26:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "LHR",
+                            "icao": "EGLL"
+                        },
+                        "actualTerminal": "5",
+                        "gate": "4B",
+                        "checkInCounter": "D"
+                    },
+                    "arrival": {
+                        "estimatedTime": {
+                            "inGateTimeliness": "Delayed",
+                            "inGateVariation": "00:35:00",
+                            "inGate": {
+                                "local": "2023-10-03T11:15:00+02:00",
+                                "utc": "2023-10-03T09:15:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "inGateTimeliness": "Delayed",
+                            "inGateVariation": "00:35:00",
+                            "onGround": {
+                                "local": "2023-10-03T11:11:00+02:00",
+                                "utc": "2023-10-03T09:11:00+00:00"
+                            },
+                            "inGate": {
+                                "local": "2023-10-03T11:15:00+02:00",
+                                "utc": "2023-10-03T09:15:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "BCN",
+                            "icao": "LEBL"
+                        },
+                        "actualTerminal": "1",
+                        "baggage": "11"
+                    }
+                }
+            ]
+        },
+        {
+            "carrier": {
+                "iata": "EI",
+                "icao": "EIN"
+            },
+            "serviceSuffix": "",
+            "flightNumber": 476,
+            "sequenceNumber": 1,
+            "flightType": "Scheduled",
+            "departure": {
+                "airport": {
+                    "iata": "DUB",
+                    "icao": "EIDW"
+                },
+                "terminal": "2",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "07:35",
+                    "utc": "06:35"
+                }
+            },
+            "arrival": {
+                "airport": {
+                    "iata": "DBV",
+                    "icao": "LDDU"
+                },
+                "terminal": "",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "11:55",
+                    "utc": "09:55"
+                }
+            },
+            "elapsedTime": 200,
+            "aircraftType": {
+                "iata": "320"
+            },
+            "serviceType": {
+                "iata": "J"
+            },
+            "segmentInfo": {
+                "numberOfStops": 0,
+                "intermediateAirports": {
+                    "iata": []
+                }
+            },
+            "codeshare": {
+                "jointOperationAirlineDesignators": [],
+                "marketingFlights": [
+                    {
+                        "code": "AA",
+                        "serviceNumber": "8018",
+                        "suffix": ""
+                    }
+                ]
+            },
+            "scheduleInstanceKey": "3c2fe081f722793ccab3d630a942bf39c2703716101c76dddd8472e1c47632d4",
+            "statusKey": "c1bbb6b086a6d38a0a97c39ae177ddb512719bf1e6e4f304dbba3bb13a29736a",
+            "statusDetails": [
+                {
+                    "state": "InGate",
+                    "updatedAt": "2023-10-03T10:45:53.021",
+                    "equipment": {
+                        "aircraftRegistrationNumber": "EIDVL",
+                        "actualAircraftType": {
+                            "iata": "320",
+                            "icao": "A320"
+                        }
+                    },
+                    "departure": {
+                        "estimatedTime": {
+                            "outGateTimeliness": "Delayed",
+                            "outGateVariation": "00:56:00",
+                            "outGate": {
+                                "local": "2023-10-03T08:31:00+01:00",
+                                "utc": "2023-10-03T07:31:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "outGateTimeliness": "Delayed",
+                            "outGateVariation": "01:03:00",
+                            "outGate": {
+                                "local": "2023-10-03T08:38:00+01:00",
+                                "utc": "2023-10-03T07:38:00+00:00"
+                            },
+                            "offGround": {
+                                "local": "2023-10-03T08:57:00+01:00",
+                                "utc": "2023-10-03T07:57:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "DUB",
+                            "icao": "EIDW"
+                        },
+                        "actualTerminal": "T2",
+                        "checkInCounter": "29"
+                    },
+                    "arrival": {
+                        "estimatedTime": {
+                            "inGateTimeliness": "Delayed",
+                            "inGateVariation": "00:51:00",
+                            "inGate": {
+                                "local": "2023-10-03T12:46:00+02:00",
+                                "utc": "2023-10-03T10:46:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "inGateTimeliness": "Delayed",
+                            "inGateVariation": "00:47:00",
+                            "inGate": {
+                                "local": "2023-10-03T12:42:00+02:00",
+                                "utc": "2023-10-03T10:42:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "DBV",
+                            "icao": "LDDU"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "carrier": {
+                "icao": "LXJ"
+            },
+            "flightNumber": 476,
+            "flightType": "Unscheduled",
+            "departure": {
+                "airport": {
+                    "iata": "IAD",
+                    "icao": "KIAD",
+                    "faa": "IAD"
+                },
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "07:50",
+                    "utc": "11:50"
+                }
+            },
+            "arrival": {
+                "airport": {
+                    "iata": "BED",
+                    "icao": "KBED",
+                    "faa": "BED"
+                },
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "09:05",
+                    "utc": "13:05"
+                }
+            },
+            "elapsedTime": 0,
+            "aircraftType": {
+                "icao": "E545"
+            },
+            "serviceType": {},
+            "segmentInfo": {
+                "numberOfStops": 0,
+                "intermediateAirports": {
+                    "iata": []
+                }
+            },
+            "codeshare": {
+                "jointOperationAirlineDesignators": [],
+                "marketingFlights": []
+            },
+            "statusKey": "2dabdd879800b7f30b3f3eef8c2f56dbae24eb542399b9d15d22088b58d4ae14",
+            "statusDetails": [
+                {
+                    "state": "Landed",
+                    "updatedAt": "2023-10-03T13:41:22.078",
+                    "equipment": {
+                        "actualAircraftType": {
+                            "icao": "E545"
+                        }
+                    },
+                    "departure": {
+                        "actualTime": {
+                            "offGround": {
+                                "local": "2023-10-03T08:37:00-04:00",
+                                "utc": "2023-10-03T12:37:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "IAD",
+                            "icao": "KIAD",
+                            "faa": "IAD"
+                        }
+                    },
+                    "arrival": {
+                        "actualTime": {
+                            "onGround": {
+                                "local": "2023-10-03T09:41:00-04:00",
+                                "utc": "2023-10-03T13:41:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "BED",
+                            "icao": "KBED",
+                            "faa": "BED"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "carrier": {
+                "iata": "FX"
+            },
+            "flightNumber": 476,
+            "flightType": "Unscheduled",
+            "departure": {
+                "airport": {
+                    "iata": "RDU",
+                    "icao": "KRDU",
+                    "faa": "RDU"
+                },
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "07:51",
+                    "utc": "11:51"
+                }
+            },
+            "arrival": {
+                "airport": {
+                    "iata": "MEM",
+                    "icao": "KMEM",
+                    "faa": "MEM"
+                },
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "08:37",
+                    "utc": "13:37"
+                }
+            },
+            "elapsedTime": 0,
+            "aircraftType": {
+                "icao": "B763"
+            },
+            "serviceType": {},
+            "segmentInfo": {
+                "numberOfStops": 0,
+                "intermediateAirports": {
+                    "iata": []
+                }
+            },
+            "codeshare": {
+                "jointOperationAirlineDesignators": [],
+                "marketingFlights": []
+            },
+            "statusKey": "c28e5c5bffc8a86d3a1aae702915ca39899e91d2ee131d644e65146364cb30e7",
+            "statusDetails": [
+                {
+                    "state": "Landed",
+                    "updatedAt": "2023-10-03T13:04:49.056",
+                    "equipment": {
+                        "aircraftRegistrationNumber": "N271FE",
+                        "actualAircraftType": {
+                            "icao": "B763"
+                        }
+                    },
+                    "departure": {
+                        "actualTime": {
+                            "offGround": {
+                                "local": "2023-10-03T07:40:00-04:00",
+                                "utc": "2023-10-03T11:40:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "RDU",
+                            "icao": "KRDU",
+                            "faa": "RDU"
+                        }
+                    },
+                    "arrival": {
+                        "actualTime": {
+                            "onGround": {
+                                "local": "2023-10-03T08:03:00-05:00",
+                                "utc": "2023-10-03T13:03:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "MEM",
+                            "icao": "KMEM",
+                            "faa": "MEM"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "carrier": {
+                "iata": "BW",
+                "icao": "BWA"
+            },
+            "serviceSuffix": "",
+            "flightNumber": 476,
+            "sequenceNumber": 1,
+            "flightType": "Scheduled",
+            "departure": {
+                "airport": {
+                    "iata": "POS",
+                    "icao": "TTPP"
+                },
+                "terminal": "",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "08:15",
+                    "utc": "12:15"
+                }
+            },
+            "arrival": {
+                "airport": {
+                    "iata": "HAV",
+                    "icao": "MUHA"
+                },
+                "terminal": "3",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "12:20",
+                    "utc": "16:20"
+                }
+            },
+            "elapsedTime": 245,
+            "aircraftType": {
+                "iata": "7M8"
+            },
+            "serviceType": {
+                "iata": "J"
+            },
+            "segmentInfo": {
+                "numberOfStops": 0,
+                "intermediateAirports": {
+                    "iata": []
+                }
+            },
+            "codeshare": {
+                "jointOperationAirlineDesignators": [],
+                "marketingFlights": []
+            },
+            "scheduleInstanceKey": "f769ad9943f71eaf190e39107f85815aa4bf3440961f206d192cdf8a54eb0dbd",
+            "statusKey": "224b0ebdf6f19879160010c86435ebf0ae6d42a05f62b6c9c8fbe36bfb202352",
+            "statusDetails": [
+                {
+                    "state": "InGate",
+                    "updatedAt": "2023-10-03T16:00:54.026",
+                    "equipment": {
+                        "aircraftRegistrationNumber": "9YJAM",
+                        "actualAircraftType": {
+                            "iata": "7M8",
+                            "icao": "B38M"
+                        }
+                    },
+                    "departure": {
+                        "estimatedTime": {
+                            "offGround": {
+                                "local": "2023-10-03T08:15:00-04:00",
+                                "utc": "2023-10-03T12:15:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "outGateTimeliness": "Early",
+                            "outGateVariation": "-00:21:00",
+                            "outGate": {
+                                "local": "2023-10-03T07:54:00-04:00",
+                                "utc": "2023-10-03T11:54:00+00:00"
+                            },
+                            "offGround": {
+                                "local": "2023-10-03T08:12:00-04:00",
+                                "utc": "2023-10-03T12:12:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "POS",
+                            "icao": "TTPP"
+                        }
+                    },
+                    "arrival": {
+                        "estimatedTime": {
+                            "onGround": {
+                                "local": "2023-10-03T11:39:00-04:00",
+                                "utc": "2023-10-03T15:39:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "inGateTimeliness": "Early",
+                            "inGateVariation": "-00:23:00",
+                            "onGround": {
+                                "local": "2023-10-03T11:49:00-04:00",
+                                "utc": "2023-10-03T15:49:00+00:00"
+                            },
+                            "inGate": {
+                                "local": "2023-10-03T11:57:00-04:00",
+                                "utc": "2023-10-03T15:57:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "HAV",
+                            "icao": "MUHA"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "carrier": {
+                "iata": "JL",
+                "icao": "JAL"
+            },
+            "serviceSuffix": "",
+            "flightNumber": 476,
+            "sequenceNumber": 1,
+            "flightType": "Scheduled",
+            "departure": {
+                "airport": {
+                    "iata": "TAK",
+                    "icao": "RJOT"
+                },
+                "terminal": "",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "09:45",
+                    "utc": "00:45"
+                }
+            },
+            "arrival": {
+                "airport": {
+                    "iata": "HND",
+                    "icao": "RJTT"
+                },
+                "terminal": "1",
+                "date": {
+                    "local": "2023-10-03",
+                    "utc": "2023-10-03"
+                },
+                "time": {
+                    "local": "11:00",
+                    "utc": "02:00"
+                }
+            },
+            "elapsedTime": 75,
+            "aircraftType": {
+                "iata": "73H"
+            },
+            "serviceType": {
+                "iata": "J"
+            },
+            "segmentInfo": {
+                "numberOfStops": 0,
+                "intermediateAirports": {
+                    "iata": []
+                }
+            },
+            "codeshare": {
+                "aircraftOwner": {
+                    "code": "JL",
+                    "name": ""
+                },
+                "cockpitCrewEmployer": {
+                    "code": "JL",
+                    "name": "",
+                    "number": "4"
+                },
+                "jointOperationAirlineDesignators": [],
+                "marketingFlights": [
+                    {
+                        "code": "HA",
+                        "serviceNumber": "5206",
+                        "suffix": ""
+                    }
+                ]
+            },
+            "scheduleInstanceKey": "98693425486c83d73e79d610fea00b1dcda072e3131bab647d945eaa5a9a3ef5",
+            "statusKey": "af89e25495692a0bcd5e742c5239c71b6e74985bd3ef936ea2827bb0e9e1a4ef",
+            "statusDetails": [
+                {
+                    "state": "InGate",
+                    "updatedAt": "2023-10-03T02:01:27.224",
+                    "equipment": {
+                        "aircraftRegistrationNumber": "JA314J",
+                        "actualAircraftType": {
+                            "iata": "73H",
+                            "icao": "B738"
+                        }
+                    },
+                    "departure": {
+                        "estimatedTime": {
+                            "outGateTimeliness": "OnTime",
+                            "outGateVariation": "00:00:00",
+                            "outGate": {
+                                "local": "2023-10-03T09:45:00+09:00",
+                                "utc": "2023-10-03T00:45:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "outGateTimeliness": "Delayed",
+                            "outGateVariation": "00:01:00",
+                            "outGate": {
+                                "local": "2023-10-03T09:46:00+09:00",
+                                "utc": "2023-10-03T00:46:00+00:00"
+                            },
+                            "offGround": {
+                                "local": "2023-10-03T09:56:00+09:00",
+                                "utc": "2023-10-03T00:56:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "TAK",
+                            "icao": "RJOT"
+                        },
+                        "gate": "1"
+                    },
+                    "arrival": {
+                        "estimatedTime": {
+                            "inGateTimeliness": "Early",
+                            "inGateVariation": "-00:05:00",
+                            "inGate": {
+                                "local": "2023-10-03T10:55:00+09:00",
+                                "utc": "2023-10-03T01:55:00+00:00"
+                            }
+                        },
+                        "actualTime": {
+                            "inGateTimeliness": "Early",
+                            "inGateVariation": "-00:02:00",
+                            "onGround": {
+                                "local": "2023-10-03T10:54:00+09:00",
+                                "utc": "2023-10-03T01:54:00+00:00"
+                            },
+                            "inGate": {
+                                "local": "2023-10-03T10:58:00+09:00",
+                                "utc": "2023-10-03T01:58:00+00:00"
+                            }
+                        },
+                        "airport": {
+                            "iata": "HND",
+                            "icao": "RJTT"
+                        },
+                        "actualTerminal": "NORTH WING"
+                    }
+                }
+            ]
+        }
+    ],
+    "paging": {
+        "limit": 10,
+        "totalCount": 31,
+        "totalPages": 4,
+        "next": "https://api.oag.com/flight-instances?DepartureDateTime=2023-10-03&ArrivalDateTime=2023-10-03&FlightNumber=476&version=v2&Content=Status&After=202310030945-1689243348428000000-98693425486c83d73e79d610fea00b1dcda072e3131bab647d945eaa5a9a3ef5"
+    }
+}
